@@ -27,8 +27,7 @@ public class Store extends javax.swing.JFrame {
     
     public Store() {
         initComponents();
-        productmodel = (DefaultTableModel) product.getModel();
-        
+        productmodel = (DefaultTableModel) product.getModel();  
     }
     
     
